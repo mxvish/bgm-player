@@ -25,17 +25,25 @@ GUI bgm player in python
 
 4. Put all of them in the same directory.
 
-5. (For Fedora, or Arch)
+5. Edit audio file names in
+    ```py
+    first_BGM = threading.Thread(target=play_bgm, args=('BGM_1_金庫解錠まで.mp3',))
+    second_BGM = threading.Thread(target=next_bgm, args=('BGM_2_爆弾解除.mp3',))
+    third_BGM = threading.Thread(target=next_bgm, args=('BGM_3_ゲームクリア.mp3',))
+    ```
+    to your audio file names.
+    
+6. (For Fedora, or Arch)
  
     Delete `#`(comment out) in `play_bgm()` and `stop_bgm()` and then add `#` to the another line in the same method.
 
-6. (For Ubuntu)
+7. (For Ubuntu)
 
     Delete `#`(comment out) in `next_bgm()` and `stop_button_clicked()` and then add `#` to the another line begins with `sp.call` in the same method.
 
-7. Unmute the speaker.
+8. Unmute the speaker.
 
-8. Run the following command on terminal.
+9. Run the following command on terminal.
 
   - For Linux
   ```sh
