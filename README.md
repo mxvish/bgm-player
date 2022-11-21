@@ -49,7 +49,7 @@ GUI bgm player in python
 
 # How to open this app when opening terminal
 
--  Run the following command on terminal.
+1. Run the following command on terminal.
 
   - For Linux
   ```sh
@@ -60,3 +60,11 @@ GUI bgm player in python
   ```sh
   echo 'python3 ~/bgm_mac.py' >> ~/.zshrc
   ```
+  
+  Note.
+  - You may need to change this command according to the default shell.
+  - If the command above not working, check your default shell by running
+  ```sh
+  echo $SHELL
+  ```
+  
