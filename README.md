@@ -63,7 +63,7 @@ GUI bgm player in python
   
   Note.
   - You may need to change this command according to the default shell.
-  - If the command above not working, check your default shell by running
+  - If the command above not working, check your default shell by executing the following command on terminal.
   ```sh
   echo $SHELL
   ```
