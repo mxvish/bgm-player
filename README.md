@@ -2,8 +2,9 @@
 GUI bgm player in python
 
 # Contents
-<a href="#-Usage">Usage</a>
-<a href="#-How-to-open-this-app-when-opening-terminal">How to open this app when opening terminal</a>
+<a href="#usage">Usage</a>
+
+<a href="#how-to-open-this-app-when-opening-terminal">How to open this app when opening terminal</a>
 
 # Usage
 1. Download mp3 player. (if you have not installed yet, I recommend to install [vlc](https://www.videolan.org/vlc/))
