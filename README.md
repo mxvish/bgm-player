@@ -7,9 +7,7 @@ GUI bgm player in python
 <a href="#how-to-open-this-app-when-opening-terminal">How to open this app when opening terminal</a>
 
 # Usage
-1. Download mp3 player. (if you have not installed yet, I recommend to install [vlc](https://www.videolan.org/vlc/))
-
-2. Install requirements.
+1. Install requirements.
 
   - For mac, ubuntu, and mx linux(a debian based distro)
     ```sh
@@ -21,29 +19,29 @@ GUI bgm player in python
     mpg123 python tkinter
     ```
 
-3. Download necesarry mp3 files and bgm.py (for macOS download bgm_mac.py)
+2. Download necesarry mp3 files and bgm.py (for macOS download bgm_mac.py)
 
-4. Put all of them in the same directory.
+3. Put all of them in the same directory.
 
-5. Edit audio file names in
+4. Edit audio file names in
     ```py
     first_BGM = threading.Thread(target=play_bgm, args=('BGM_1_金庫解錠まで.mp3',))
     second_BGM = threading.Thread(target=next_bgm, args=('BGM_2_爆弾解除.mp3',))
     third_BGM = threading.Thread(target=next_bgm, args=('BGM_3_ゲームクリア.mp3',))
     ```
-    to your audio file names.
+    of bgm.py (or bgm_mac.py) to your audio file names.
     
-6. (For Fedora, or Arch)
+5. (For Fedora, or Arch)
  
     Delete `#`(comment out) in `play_bgm()` and `stop_bgm()` and then add `#` to the another line in the same method.
 
-7. (For Ubuntu)
+6. (For Ubuntu)
 
     Delete `#`(comment out) in `next_bgm()` and `stop_button_clicked()` and then add `#` to the another line begins with `sp.call` in the same method.
 
-8. Unmute the speaker.
+7. Unmute the speaker.
 
-9. Run the following command on terminal.
+8. Run the following command on terminal.
 
   - For Linux
   ```sh
